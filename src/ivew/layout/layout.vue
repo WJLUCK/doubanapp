@@ -21,7 +21,7 @@
             <a href="" style="color:#2AB8CC;">小组</a>
           </li>
           <li>
-            <router-link tag="span" to="/login">@.@</router-link>
+            <router-link tag="span" to="/login">JUE</router-link>
           </li>
         </ul>
       </div>

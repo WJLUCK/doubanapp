@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <div style="height:.1rem;"></div>
     <div class="home-title">
       <ul>
         <li>
@@ -68,7 +69,6 @@ export default {
     getRecommend() {
       axios.get("./static/mock/recommend.json").then(res => {
         this.recommendList = res.data.recommend_feeds;
-        // console.log(this.recommendList);
       });
     }
   }
