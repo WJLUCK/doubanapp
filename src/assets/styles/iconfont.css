@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "iconfont";
+  src: url("/iconfont/iconfont.eot?t=1533634923006"); /* IE9*/
+  src: url("/iconfont/iconfont.eot?t=1533634923006#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAAUkAAsAAAAAB3QAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFZW7kg6Y21hcAAAAYAAAABeAAABhpp4Br5nbHlmAAAB4AAAAVgAAAFgZH4HPmhlYWQAAAM4AAAALwAAADYSPljQaGhlYQAAA2gAAAAcAAAAJAfeA4RobXR4AAADhAAAAAwAAAAMC+kAAGxvY2EAAAOQAAAACAAAAAgAdgCwbWF4cAAAA5gAAAAfAAAAIAESAF1uYW1lAAADuAAAAUUAAAJtPlT+fXBvc3QAAAUAAAAAIQAAADJ0h9t8eJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2Bk/sE4gYGVgYOpk+kMAwNDP4RmfM1gxMjBwMDEwMrMgBUEpLmmMDgwVDwLYG7438AQw9zA0AAUZgTJAQApTAy8eJzFkMENgDAMAy9t6QMxCA+G6ZMXc3TirlFMKA8mqCXHimMpUYAFiOIhJrAL48Ep19yPrO4nz2SpEait9K7+U0U0y65BJTMNNm/1H5vXfXT6CnVQJ7byknADHE4MzwAAeJwNj79OwlAche/vll4KhZbetrd/oBYopTVoq6XiYAAHF42DiZMJiwmrriwOLCYODm4kjMbEJ2AjcSCOvACb0SfwAdCenHw533gQj9DfF7fkTKSiEB2iM3SFEJAONCXsQCNII9wBvcHrhiZxgRc08l4z4vpgNInGkl7aNkieyCDBDnQbSS+IcABH6QCfQMIcAKtqX1O/RrkXKJrBzuP2Ar+C7no1ebC/Pd8bakldFSYlSi1KnwXC8wLGOVmCO4MV+EKRbN942daX7i52oWQF9uVNuV6lt0/pveMbBYDpFNRqXXofKraS9cFmKrXylbJg2mWvpcHkRzTVktP+Rlkg+/rBfXKnyMskghhH0CQyljBzIU9YNxmCkbEXw/EAuKXgm+uR2DnoiKO16VdEZdYiaci0xUJjYUpaM0WEX8PNuSvTts1VNuKYzjdhXxyPxX64mdP4H1SpOgB4nGNgZGBgAOLZK5e2xPPbfGXgZmEAgev9XVkI+v9+FgZmByCXg4EJJAoAQp4K4QB4nGNgZGBgbvjfwBDDwgACQJKRARUwAwBHCQJsBAAAAAPpAAAEAAAAAAAAAAB2ALB4nGNgZGBgYGYIZGBlAAEmIOYCQgaG/2A+AwAQ9wFwAHicZY9NTsMwEIVf+gekEqqoYIfkBWIBKP0Rq25YVGr3XXTfpk6bKokjx63UA3AejsAJOALcgDvwSCebNpbH37x5Y08A3OAHHo7fLfeRPVwyO3INF7gXrlN/EG6QX4SbaONVuEX9TdjHM6bCbXRheYPXuGL2hHdhDx18CNdwjU/hOvUv4Qb5W7iJO/wKt9Dx6sI+5l5XuI1HL/bHVi+cXqnlQcWhySKTOb+CmV7vkoWt0uqca1vEJlODoF9JU51pW91T7NdD5yIVWZOqCas6SYzKrdnq0AUb5/JRrxeJHoQm5Vhj/rbGAo5xBYUlDowxQhhkiMro6DtVZvSvsUPCXntWPc3ndFsU1P9zhQEC9M9cU7qy0nk6T4E9XxtSdXQrbsuelDSRXs1JErJCXta2VELqATZlV44RelzRiT8oZ0j/AAlabsgAAAB4nGNgYoAALgbsgJmRiZGZkYWBsYKluCSxiIEBAA6xAlMAAAA=")
+      format("woff"),
+    url("/iconfont/iconfont.ttf?t=1533634923006") format("truetype"),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+      url("/iconfont/iconfont.svg?t=1533634923006#iconfont") format("svg"); /* iOS 4.1- */
+}
+
+/*   -webkit-transform  webkit 谷歌浏览器 缩放*/
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffb90f;
+  -webkit-transform: scale(0.7);
+}
+
+.icon-star:before {
+  content: "\e650";
+}
