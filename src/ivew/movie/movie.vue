@@ -102,7 +102,7 @@ export default {
   },
   methods: {
     movie_show() {
-      axios.get("https://api.douban.com/v2/movie/in_theaters").then(res => {
+      axios.get("/api/movie/in_theaters").then(res => {
         this.hotList = res.data.subjects;
         let items = [];
         for (let i = 0; i < 20; i++) {

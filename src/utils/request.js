@@ -4,6 +4,7 @@ import axios from "axios";
 const service = axios.create({
   // baseURL: "https://api.douban.com/v2",
   "Access-Control-Allow-Origin": "*",
+  "content-type": "application/json",
   // "Access-Control-Allow-Method": "POST,GET",
   // baseURL: process.env.base_API,
   timeout: 5000

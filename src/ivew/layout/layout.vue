@@ -2,9 +2,9 @@
   <div class="layout">
     <div class="header border-bottom">
       <div class="header-primary">
-        <a href="/">
+        <router-link tag="a" to="/home">
           豆瓣
-        </a>
+        </router-link>
       </div>
       <div class="header-secondary">
         <ul>

@@ -23,7 +23,7 @@ export default new Router({
           name: "movie"
         },
         {
-          path: "/",
+          path: "/home",
           component: () => import("@/ivew/home/home"),
           name: "home"
         }
