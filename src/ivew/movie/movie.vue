@@ -31,7 +31,7 @@
           <span>影院热映</span>
           <a href="/">更多</a>
         </header>
-        <div class="section-content" ref="wrapper">
+        <div class="section-content" ref="wrapper2">
           <ul>
             <li v-for="(item,index) in hotList" :key="index">
               <img :src="item.images.large" alt="">
@@ -56,7 +56,7 @@
           <span>影院热映</span>
           <a href="/">更多</a>
         </header>
-        <div class="section-content" ref="wrapper">
+        <div class="section-content" ref="wrapper3">
           <ul>
             <li v-for="(item,index) in hotList" :key="index">
               <img :src="item.images.large" alt="">
@@ -81,7 +81,7 @@
           <span>影院热映</span>
           <a href="/">更多</a>
         </header>
-        <div class="section-content" ref="wrapper">
+        <div class="section-content" ref="wrapper4">
           <ul>
             <li v-for="(item,index) in hotList" :key="index">
               <img :src="item.images.large" alt="">
@@ -100,6 +100,7 @@
         </div>
       </section>
     </div>
+    <div style="height:1.3rem"></div>
   </div>
 </template>
 
@@ -140,6 +141,15 @@ export default {
     },
     init() {
       let scroll = new BScroll(this.$refs.wrapper, {
+        scrollX: true
+      });
+      let scroll2 = new BScroll(this.$refs.wrapper2, {
+        scrollX: true
+      });
+      let scroll3 = new BScroll(this.$refs.wrapper3, {
+        scrollX: true
+      });
+      let scroll4 = new BScroll(this.$refs.wrapper4, {
         scrollX: true
       });
     }

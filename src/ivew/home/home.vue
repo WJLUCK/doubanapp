@@ -51,6 +51,8 @@
 
 <script>
 import axios from "axios";
+// import { BScroll } from "better-scroll";
+import { setTimeout } from "timers";
 export default {
   name: "home",
   data() {
