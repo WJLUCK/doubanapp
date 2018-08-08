@@ -48,10 +48,16 @@ export default {
   },
   methods: {
     init() {
-      let scroll = new BScroll(this.$refs.wrapper, {
-        scrollY: true
+      this.$nextTick(() => {
+        if (!this.scroll) {
+          this.scroll = new BScroll(this.$refs.wrapper, {
+            scrollY: true
+            // click: true
+          });
+        } else {
+          this.scroll.refresh();
+        }
       });
-      // console.log(scroll);
     }
   }
 };
